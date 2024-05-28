@@ -1,0 +1,86 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaço entre os elementos */
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.back-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #45a049;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #357d3b;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 2px solid #ddd; /* Adicionando uma borda sólida de cor cinza */
+    border-radius: 5px; /* Borda arredondada */
+    overflow: hidden; /* Para esconder as partes da borda que estão fora do container */
+}
+
+.map-container iframe {
+    width: 100%; /* Para garantir que o mapa ocupe todo o espaço dentro da borda */
+}
+
+.text-box {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+}
